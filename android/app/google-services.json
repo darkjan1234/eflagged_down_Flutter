@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "149598533631",
+    "project_id": "eflagdown",
+    "storage_bucket": "eflagdown.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:149598533631:android:7178c11acaf813ebc759ca",
+        "android_client_info": {
+          "package_name": "com.example.EFlagdown"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "149598533631-qt2cf3v0m59sis66elqpa6l4421n3oi8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXoK461WY1qC58zKlAVJLAqC32V59FWnY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "149598533631-qt2cf3v0m59sis66elqpa6l4421n3oi8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
