@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:cloud_firestore/cloud_firestore.dart';
 import 'records/records.dart';
 import 'violation/violation.dart';
 import 'camera_cnn/camera_cnn.dart';
