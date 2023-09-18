@@ -5,10 +5,10 @@ class Camera extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('CNN Camera'),
+        title: Text('Camera_CNN'),
       ),
       body: Center(
-        child: Text('This is the cnn camera'),
+        child: Text('This is the Camera_CNN screen'),
       ),
     );
   }

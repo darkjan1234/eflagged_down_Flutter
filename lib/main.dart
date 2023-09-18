@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'records/records.dart';
-import 'cnncamera/cnncamera.dart';
 import 'violation/violation.dart';
+import 'camera_cnn/camera_cnn.dart';
 import 'listTile/listTile.dart';
 
 void main() {
@@ -17,9 +17,9 @@ class MyApp extends StatelessWidget {
       initialRoute: '/',
       routes: {
         '/': (context) => HomeScreen(),
-        '.records/records': (context) => RecordsScreen(),
-        '.records/violation': (context) => Violation(),
-        '.records/camera': (context) => Camera(),
+        '/records/records': (context) => RecordsScreen(),
+        '/violation/violation': (context) => Violation(),
+        '/camera_cnn/camera_cnn': (context) => Camera(),
         // Define other routes here
       },
     );

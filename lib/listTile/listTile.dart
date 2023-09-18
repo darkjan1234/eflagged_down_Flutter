@@ -23,21 +23,21 @@ class AppDrawer extends StatelessWidget {
             title: Text('Records'),
             onTap: () {
               Navigator.pop(context); // Close the drawer
-              Navigator.pushNamed(context, '.records/records');
+              Navigator.pushNamed(context, '/records/records');
             },
           ),
           ListTile(
             title: Text('Violation'),
             onTap: () {
               Navigator.pop(context); // Close the drawer
-              Navigator.pushNamed(context, '.violation/violation');
+              Navigator.pushNamed(context, '/violation/violation');
             },
           ),
           ListTile(
-            title: Text('CNN Camera'),
+            title: Text('Camera'),
             onTap: () {
               Navigator.pop(context); // Close the drawer
-              Navigator.pushNamed(context, '.cnncamera/camera');
+              Navigator.pushNamed(context, '/camera_cnn/camera_cnn');
             },
           ),
           // Other ListTiles here
